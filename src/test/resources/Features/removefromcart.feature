@@ -3,7 +3,7 @@ Feature: Cart functionalities
   Background:
     Given a user on the home page
   Scenario: Check user able to add and remove product from cart
-    When user enter the productname "dell laptop i7"
+    When user enter the productname "dell laptop 10th gen i7"
     And click search button
 #    Then user is navigated to product page
     When user selected to dell precision laptop
